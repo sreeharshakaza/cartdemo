@@ -1,0 +1,15 @@
+<section>
+  <mat-toolbar class="demo-toolbar mat-primary">
+    <div class="mat-toolbar-tools" fxLayoutWrap  fxFlex="100%"  fxLayout="row" style="width:100%">
+      <div fxFlex="50%" style="float: left;">
+          <h3 class="ng-binding">Shopping Cart</h3>
+      </div>
+      
+      <div fxFlex="50%" fxLayoutAlign="end center" style="float: right;">
+        <mat-icon (click)="openDialog()">shopping_cart</mat-icon>
+        {{cartList.length}}
+      </div>
+      
+    </div>
+  </mat-toolbar>
+</section>
